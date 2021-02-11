@@ -4,7 +4,7 @@ do
 
 curl --socks5-hostname localhost:9050 'https://abs.twimg.com/responsive-web/client-web/bundle.Search.e9bdd2a5.js' \
   -H 'Referer: https://mobile.twitter.com/' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'DNT: 1' \
   --compressed ;
 curl --socks5-hostname localhost:9050 'https://api.twitter.com/1.1/jot/client_event.json' \
@@ -13,7 +13,7 @@ curl --socks5-hostname localhost:9050 'https://api.twitter.com/1.1/jot/client_ev
   -H 'x-csrf-token: e4a652ceca690ab5b1df0d5968e93318' \
   -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
   -H 'content-type: application/x-www-form-urlencoded' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'Referer: https://mobile.twitter.com/' \
   -H 'x-guest-token: 1359739186857787394' \
   -H 'x-twitter-active-user: yes' \
@@ -25,7 +25,7 @@ curl --socks5-hostname localhost:9050 'https://api.twitter.com/1.1/jot/client_ev
   -H 'x-csrf-token: e4a652ceca690ab5b1df0d5968e93318' \
   -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
   -H 'content-type: application/x-www-form-urlencoded' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'Referer: https://mobile.twitter.com/' \
   -H 'x-guest-token: 1359739186857787394' \
   -H 'x-twitter-active-user: yes' \
@@ -39,7 +39,7 @@ curl --socks5-hostname localhost:9050 'https://api.twitter.com/1.1/jot/client_ev
   -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
   -H 'content-type: application/x-www-form-urlencoded' \
   -H 'accept: */*' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'x-guest-token: 1359739186857787394' \
   -H 'x-twitter-active-user: yes' \
   -H 'origin: https://mobile.twitter.com' \
@@ -59,7 +59,7 @@ curl --socks5-hostname localhost:9050 'https://api.twitter.com/1.1/jot/client_ev
   -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
   -H 'content-type: application/x-www-form-urlencoded' \
   -H 'accept: */*' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'x-guest-token: 1359739186857787394' \
   -H 'x-twitter-active-user: yes' \
   -H 'origin: https://mobile.twitter.com' \
@@ -79,7 +79,7 @@ curl --socks5-hostname localhost:9050 'https://mobile.twitter.com/i/api/2/search
   -H 'x-csrf-token: e4a652ceca690ab5b1df0d5968e93318' \
   -H 'x-guest-token: 1359739186857787394' \
   -H 'x-twitter-active-user: yes' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'accept: */*' \
   -H 'sec-fetch-site: same-origin' \
   -H 'sec-fetch-mode: cors' \
@@ -92,7 +92,7 @@ curl --socks5-hostname localhost:9050 'https://www.google-analytics.com/j/collec
   -X 'POST' \
   -H 'Referer: https://mobile.twitter.com/' \
   -H 'DNT: 1' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'Content-Type: text/plain' \
   --compressed ;
 curl --socks5-hostname localhost:9050 'https://www.google-analytics.com/j/collect?v=1&_v=j87&aip=1&a=2110121145&t=pageview&_s=2&dl=https%3A%2F%2Fmobile.twitter.com%2Fh4j3s&dp=%2Fanon%2Fsearch%2Fsearch_filter_top&ul=ar-sa&de=UTF-8&dt=IGNORED&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=aEBAAUABAAAAAC~&jid=1080203915&gjid=2117964384&cid=1193118170.1613022065&tid=UA-30775-67&sf=10&_gid=1714079054.1613022065&_r=1&z=2070211156' \
@@ -101,7 +101,7 @@ curl --socks5-hostname localhost:9050 'https://www.google-analytics.com/j/collec
   -H 'content-length: 0' \
   -H 'accept: */*' \
   -H 'dnt: 1' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'content-type: text/plain' \
   -H 'origin: https://mobile.twitter.com' \
   -H 'sec-fetch-site: cross-site' \
@@ -112,7 +112,7 @@ curl --socks5-hostname localhost:9050 'https://www.google-analytics.com/j/collec
   --compressed ;
 curl --socks5-hostname localhost:9050 'https://www.google-analytics.com/collect?v=1&_v=j87&aip=1&a=2110121145&t=pageview&_s=3&dl=https%3A%2F%2Fmobile.twitter.com%2Fh4j3s&dp=%2Fanon%2Fapp%2F&ul=ar-sa&de=UTF-8&dt=IGNORED&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=aEBAAUABAAAAAC~&jid=&gjid=&cid=1193118170.1613022065&tid=UA-30775-67&sf=10&_gid=1714079054.1613022065&z=64135246' \
   -H 'authority: www.google-analytics.com' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'dnt: 1' \
   -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
   -H 'sec-fetch-site: cross-site' \
@@ -123,7 +123,7 @@ curl --socks5-hostname localhost:9050 'https://www.google-analytics.com/collect?
   --compressed ;
 curl --socks5-hostname localhost:9050 'https://pbs.twimg.com/profile_images/1243473200824168449/TtXvLtvw_x96.jpg' \
   -H 'authority: pbs.twimg.com' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'dnt: 1' \
   -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
   -H 'sec-fetch-site: cross-site' \
@@ -134,7 +134,7 @@ curl --socks5-hostname localhost:9050 'https://pbs.twimg.com/profile_images/1243
   --compressed ;
 curl --socks5-hostname localhost:9050 'https://abs-0.twimg.com/emoji/v2/svg/1f1f8-1f1e6.svg' \
   -H 'authority: abs-0.twimg.com' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'dnt: 1' \
   -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
   -H 'sec-fetch-site: cross-site' \
@@ -145,7 +145,7 @@ curl --socks5-hostname localhost:9050 'https://abs-0.twimg.com/emoji/v2/svg/1f1f
   --compressed ;
 curl --socks5-hostname localhost:9050 'https://abs-0.twimg.com/emoji/v2/svg/1f44c.svg' \
   -H 'authority: abs-0.twimg.com' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'dnt: 1' \
   -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
   -H 'sec-fetch-site: cross-site' \
@@ -156,7 +156,7 @@ curl --socks5-hostname localhost:9050 'https://abs-0.twimg.com/emoji/v2/svg/1f44
   --compressed ;
 curl --socks5-hostname localhost:9050 'https://abs-0.twimg.com/emoji/v2/svg/1f601.svg' \
   -H 'authority: abs-0.twimg.com' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'dnt: 1' \
   -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
   -H 'sec-fetch-site: cross-site' \
@@ -167,7 +167,7 @@ curl --socks5-hostname localhost:9050 'https://abs-0.twimg.com/emoji/v2/svg/1f60
   --compressed ;
 curl --socks5-hostname localhost:9050 'https://abs.twimg.com/sticky/default_profile_images/default_profile_x96.png' \
   -H 'authority: abs.twimg.com' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'dnt: 1' \
   -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
   -H 'sec-fetch-site: cross-site' \
@@ -178,7 +178,7 @@ curl --socks5-hostname localhost:9050 'https://abs.twimg.com/sticky/default_prof
   --compressed ;
 curl --socks5-hostname localhost:9050 'https://pbs.twimg.com/ext_tw_video_thumb/1316318895872106496/pu/img/N_mWyHkP_JWQQq_2?format=jpg&name=medium' \
   -H 'authority: pbs.twimg.com' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'dnt: 1' \
   -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
   -H 'sec-fetch-site: cross-site' \
@@ -189,7 +189,7 @@ curl --socks5-hostname localhost:9050 'https://pbs.twimg.com/ext_tw_video_thumb/
   --compressed ;
 curl --socks5-hostname localhost:9050 'https://pbs.twimg.com/profile_images/1139485220334383104/IRzNuN_E_x96.jpg' \
   -H 'authority: pbs.twimg.com' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'dnt: 1' \
   -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
   -H 'sec-fetch-site: cross-site' \
@@ -204,7 +204,7 @@ curl --socks5-hostname localhost:9050 'https://api.twitter.com/1.1/jot/client_ev
   -H 'x-csrf-token: e4a652ceca690ab5b1df0d5968e93318' \
   -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
   -H 'content-type: application/x-www-form-urlencoded' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'Referer: https://mobile.twitter.com/' \
   -H 'x-guest-token: 1359739186857787394' \
   -H 'x-twitter-active-user: yes' \
@@ -218,7 +218,7 @@ curl --socks5-hostname localhost:9050 'https://api.twitter.com/1.1/jot/client_ev
   -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
   -H 'content-type: application/x-www-form-urlencoded' \
   -H 'accept: */*' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'x-guest-token: 1359739186857787394' \
   -H 'x-twitter-active-user: yes' \
   -H 'origin: https://mobile.twitter.com' \
@@ -238,7 +238,7 @@ curl --socks5-hostname localhost:9050 'https://api.twitter.com/1.1/jot/client_ev
   -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
   -H 'content-type: application/x-www-form-urlencoded' \
   -H 'accept: */*' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'x-guest-token: 1359739186857787394' \
   -H 'x-twitter-active-user: yes' \
   -H 'origin: https://mobile.twitter.com' \
@@ -252,7 +252,7 @@ curl --socks5-hostname localhost:9050 'https://api.twitter.com/1.1/jot/client_ev
   --compressed ;
 curl --socks5-hostname localhost:9050 'https://pbs.twimg.com/profile_banners/998820770355740672/1610816385/1080x360' \
   -H 'authority: pbs.twimg.com' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'dnt: 1' \
   -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
   -H 'sec-fetch-site: cross-site' \
@@ -263,7 +263,7 @@ curl --socks5-hostname localhost:9050 'https://pbs.twimg.com/profile_banners/998
   --compressed ;
 curl --socks5-hostname localhost:9050 'https://pbs.twimg.com/profile_images/1355741529793585154/H3Ey1Udp_200x200.jpg' \
   -H 'authority: pbs.twimg.com' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'dnt: 1' \
   -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
   -H 'sec-fetch-site: cross-site' \
@@ -278,7 +278,7 @@ curl --socks5-hostname localhost:9050 'https://api.twitter.com/1.1/jot/client_ev
   -H 'x-csrf-token: e4a652ceca690ab5b1df0d5968e93318' \
   -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
   -H 'content-type: application/x-www-form-urlencoded' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'Referer: https://mobile.twitter.com/' \
   -H 'x-guest-token: 1359739186857787394' \
   -H 'x-twitter-active-user: yes' \
@@ -291,7 +291,7 @@ curl --socks5-hostname localhost:9050 'https://mobile.twitter.com/i/api/graphql/
   -H 'x-csrf-token: e4a652ceca690ab5b1df0d5968e93318' \
   -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
   -H 'content-type: application/json' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'x-guest-token: 1359739186857787394' \
   -H 'x-twitter-active-user: yes' \
   -H 'accept: */*' \
@@ -310,7 +310,7 @@ curl --socks5-hostname localhost:9050 'https://mobile.twitter.com/i/api/2/timeli
   -H 'x-csrf-token: e4a652ceca690ab5b1df0d5968e93318' \
   -H 'x-guest-token: 1359739186857787394' \
   -H 'x-twitter-active-user: yes' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'accept: */*' \
   -H 'sec-fetch-site: same-origin' \
   -H 'sec-fetch-mode: cors' \
@@ -321,7 +321,7 @@ curl --socks5-hostname localhost:9050 'https://mobile.twitter.com/i/api/2/timeli
   --compressed ;
 curl --socks5-hostname localhost:9050 'https://abs-0.twimg.com/emoji/v2/svg/1f64f.svg' \
   -H 'authority: abs-0.twimg.com' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'dnt: 1' \
   -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
   -H 'sec-fetch-site: cross-site' \
@@ -332,7 +332,7 @@ curl --socks5-hostname localhost:9050 'https://abs-0.twimg.com/emoji/v2/svg/1f64
   --compressed ;
 curl --socks5-hostname localhost:9050 'https://pbs.twimg.com/profile_images/1355444318933286912/VRYNDV2i_x96.jpg' \
   -H 'authority: pbs.twimg.com' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'dnt: 1' \
   -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
   -H 'sec-fetch-site: cross-site' \
@@ -343,7 +343,7 @@ curl --socks5-hostname localhost:9050 'https://pbs.twimg.com/profile_images/1355
   --compressed ;
 curl --socks5-hostname localhost:9050 'https://pbs.twimg.com/media/EtzSznGWYAAIt_Y?format=jpg&name=small' \
   -H 'authority: pbs.twimg.com' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'dnt: 1' \
   -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
   -H 'sec-fetch-site: cross-site' \
@@ -354,7 +354,7 @@ curl --socks5-hostname localhost:9050 'https://pbs.twimg.com/media/EtzSznGWYAAIt
   --compressed ;
 curl --socks5-hostname localhost:9050 'https://pbs.twimg.com/ext_tw_video_thumb/1350871181042266113/pu/img/d4Q4FYvlXB_jZyK1?format=jpg&name=medium' \
   -H 'authority: pbs.twimg.com' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'dnt: 1' \
   -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
   -H 'sec-fetch-site: cross-site' \
@@ -365,7 +365,7 @@ curl --socks5-hostname localhost:9050 'https://pbs.twimg.com/ext_tw_video_thumb/
   --compressed ;
 curl --socks5-hostname localhost:9050 'https://www.google-analytics.com/collect?v=1&_v=j87&aip=1&a=2110121145&t=pageview&_s=4&dl=https%3A%2F%2Fmobile.twitter.com%2Fh4j3s&dp=%2Fanon%2Fprofile%2Ftweets&ul=ar-sa&de=UTF-8&dt=IGNORED&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=aEBAAUABAAAAAC~&jid=&gjid=&cid=1193118170.1613022065&tid=UA-30775-67&sf=10&_gid=1714079054.1613022065&z=177782389' \
   -H 'authority: www.google-analytics.com' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'dnt: 1' \
   -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
   -H 'sec-fetch-site: cross-site' \
@@ -380,7 +380,7 @@ curl --socks5-hostname localhost:9050 'https://api.twitter.com/1.1/jot/client_ev
   -H 'x-csrf-token: e4a652ceca690ab5b1df0d5968e93318' \
   -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
   -H 'content-type: application/x-www-form-urlencoded' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'Referer: https://mobile.twitter.com/' \
   -H 'x-guest-token: 1359739186857787394' \
   -H 'x-twitter-active-user: yes' \
@@ -394,7 +394,7 @@ curl --socks5-hostname localhost:9050 'https://api.twitter.com/1.1/jot/client_ev
   -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
   -H 'content-type: application/x-www-form-urlencoded' \
   -H 'accept: */*' \
-  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Twitter for iPhone' \
   -H 'x-guest-token: 1359739186857787394' \
   -H 'x-twitter-active-user: yes' \
   -H 'origin: https://mobile.twitter.com' \
